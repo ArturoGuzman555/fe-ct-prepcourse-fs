@@ -4,5 +4,6 @@ function invertirArray(array) {
   array.reverse();
   return array;
 }
+console.log(invertirArray)
 
 module.exports = invertirArray;

@@ -23,6 +23,6 @@ function colors(color) {
     return "Color not found"
   }
 }
-
+console.log(colors(""))
 
 module.exports = colors;

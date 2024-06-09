@@ -14,7 +14,9 @@ function multiplicarArgumentos() {
   let producto = 1;
   for (let i = 0; i < arguments.length; i++) {
     producto *= arguments[i];
-}
+  }
+
+  return producto;
 }
 
 module.exports = multiplicarArgumentos;

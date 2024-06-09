@@ -31,5 +31,6 @@ function obtenerDiaSemana(numero) {
     return "No es un dia de la semana"
   }
 }
+console.log(obtenerDiaSemana())
 
 module.exports = obtenerDiaSemana;
